@@ -48,7 +48,7 @@ It shows the distance of a random variable from its mean. It is calcualted as
 ![image](https://user-images.githubusercontent.com/103921593/229993174-5b67e57e-3e01-4ac4-9f83-410a932b22bf.png)
 
 # Program :
-import numpy as np
+```import numpy as np
 L=[int(i) for i in input().split()]
 N=len(L); M=max(L) 
 x=list();f=list()
@@ -69,7 +69,7 @@ var=EX2-mean**2
 SD=np.sqrt(var)
 print("The Mean arrival rate is %.3f "%mean)
 print("The Variance of arrival from feeder is %.3f "%var) 
-print("The Standard deviation of arrival from feeder is %.3F "%SD)
+print("The Standard deviation of arrival from feeder is %.3F "%SD)```
 
 # Output : 
 ![image](https://github.com/SajenMurali/Mean-and-Variance/assets/164154502/d897834e-52ff-47be-806e-5d74e7281746)
